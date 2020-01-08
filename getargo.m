@@ -51,4 +51,4 @@ for a = 1:length(argoData)
 end
 
 argoData = sortrows(argoData, 1);
-clear i j cols digits id rows lat lon count list m folderz qf a
+clearvars -except argoData
