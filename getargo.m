@@ -1,4 +1,4 @@
-%% Combine Argo data (2000 - 2019)
+%% [argoData] = Combine Argo data (2000 - 2019)
 %  Columns: Float ID, Date, Latitude, Longitude (-180 to 180), Longitude (0 to 360)
 
 folderz = 2000:2019;
