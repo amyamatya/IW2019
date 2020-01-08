@@ -63,6 +63,8 @@ end
 merData(find(merData(:,1) == 0),:) = [];
 
 clear count data dateId dayCount i latId lonId nanIds theFilenames
+
+
 %% [merCount] = Find length and starting index for each float 
 currentFloat = 0;
 currentIdx = 0;
@@ -86,6 +88,8 @@ for i = 1:length(merCount)-1
 end
 
 clear i j size ans count nanIds theFilenames dateId latId lonId data currentIdx currentFloat
+
+
 %% How frequently do Mermaids surface?
 
 for i = 1:length(merCount)
@@ -103,6 +107,7 @@ average = mean(merCount(:,4));
 merCount(:,4) = [];
 
 clear i in1 in2 j time
+
 
 %% Remove float launch errors
 
