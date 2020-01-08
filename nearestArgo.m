@@ -112,11 +112,3 @@ legend([lg1 lg2],'Argo','Mermaid');
 title("Nearest Argo points within same month, avg distance = " + sprintf('%.03f',mean2) + ' km');
 
 clearvars -except argoData merData merCount distArray
-
-
-
-
-
-
-
-
