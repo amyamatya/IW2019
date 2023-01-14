@@ -1,2 +1,2 @@
-# JPF2019
-JP Fall 2019
+# IW2019
+Some scripts for Fall 2019 independent work
